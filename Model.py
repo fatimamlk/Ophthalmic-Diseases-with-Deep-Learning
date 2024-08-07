@@ -37,5 +37,5 @@ class CNN(nn.Module):
         x = self.dropout1(x)  # Apply dropout after first FC layer
         x = F.relu(self.fc2(x))
         x = self.dropout2(x)  # Apply dropout after second FC layer
-        x = torch.sigmoid(self.fc3(x))  # Apply sigmoid to output layer for binary classification
+        x = torch.sigmoid(self.fc3(x))  # then Apply sigmoid to output layer for binary classification
         return x
