@@ -1,0 +1,6 @@
+Werkzeug
+numpy
+flask
+torch
+torchvision
+Pillow
