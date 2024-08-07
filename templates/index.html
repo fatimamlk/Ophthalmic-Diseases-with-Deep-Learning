@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RetinoPredict</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='assets/img/RetinoPredict.png') }}" rel="icon">
+  <link href="{{ url_for('static', filename='assets/img/RetinoPredict.png') }}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+<link href="{{ url_for('static', filename='assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="{{ url_for('static', filename='assets/css/style.css') }}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medilab
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">retinopredict@gmail.com</a>
+        <i class="bi bi-phone"></i> +212 65489326
+      </div>
+      <div class="d-none d-lg-flex social-links align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">RetinoPredict</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+   
+          
+          
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#upload" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make a</span> Prediction</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1>Welcome to RetinoPredict</h1>
+      <h2>We provide advanced image-based medical diagnostics and predictions.</h2>
+
+      <a href="#upload" class="btn-get-started scrollto">Get Started</a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Why Us Section ======= -->
+<section id="why-us" class="why-us">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-4 d-flex align-items-stretch">
+        <div class="content">
+          <h3>Why Choose Our Diabetic Retinopathy Detection Tool?</h3>
+          <p>
+            Diabetic retinopathy is a severe complication of diabetes that can lead to vision loss if not detected early. Our advanced tool utilizes deep learning technology to provide accurate and early detection of diabetic retinopathy, helping to preserve vision and improve patient outcomes.
+          </p>
+          <div class="text-center">
+            <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 d-flex align-items-stretch">
+        <div class="icon-boxes d-flex flex-column justify-content-center">
+          <div class="row">
+            <div class="col-xl-4 d-flex align-items-stretch">
+              <div class="icon-box mt-4 mt-xl-0">
+                <i class="bx bx-brain"></i>
+                <h4>Advanced Deep Learning</h4>
+                <p>Our tool leverages cutting-edge deep learning algorithms to analyze retinal images with high precision, ensuring reliable detection of diabetic retinopathy.</p>
+              </div>
+            </div>
+            <div class="col-xl-4 d-flex align-items-stretch">
+              <div class="icon-box mt-4 mt-xl-0">
+                <i class="bx bx-health"></i>
+                <h4>Early Detection Saves Vision</h4>
+                <p>Early detection of diabetic retinopathy is crucial in preventing vision loss. Our tool helps identify the disease at an early stage, allowing for timely medical intervention.</p>
+              </div>
+            </div>
+            <div class="col-xl-4 d-flex align-items-stretch">
+              <div class="icon-box mt-4 mt-xl-0">
+                <i class="bx bx-shield"></i>
+                <h4>Accurate and Reliable</h4>
+                <p>With high accuracy and reliability, our tool provides dependable results that healthcare providers can trust, aiding in the effective management of diabetic retinopathy.</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- End .content-->
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Why Us Section -->
+
+
+    <!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+        <a href="https://youtu.be/QG2Kr3i9gbc?si=arfJcgMilgzsukag" class="glightbox play-btn mb-4"></a>
+      </div>
+
+      <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+        <h3>Detecting Diabetic Retinopathy with AI Technology</h3>
+        <p>Our mission is to provide an accessible and accurate tool for detecting diabetic retinopathy through advanced AI technology. Early detection is crucial in preventing vision loss and improving patient outcomes.</p>
+
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-fingerprint"></i></div>
+          <h4 class="title"><a href="">Advanced AI Algorithms</a></h4>
+          <p class="description">Utilizing state-of-the-art AI algorithms, our tool analyzes retinal images to detect signs of diabetic retinopathy with high accuracy.</p>
+        </div>
+
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-gift"></i></div>
+          <h4 class="title"><a href="">User-Friendly Interface</a></h4>
+          <p class="description">Our platform is designed to be easy to use, allowing users to upload images and receive results quickly and efficiently.</p>
+        </div>
+
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-atom"></i></div>
+          <h4 class="title"><a href="">Improving Healthcare</a></h4>
+          <p class="description">By providing a reliable tool for early detection, we aim to support healthcare providers in offering better care for patients with diabetes.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+    <!-- ======= Upload Section ======= -->
+<section id="upload" class="upload">
+  <div class="container">
+    <div class="section-title">
+      <h2>Upload your retinal image</h2>
+      <p>Submit your retinal image to get a prediction on the presence of diabetic retinopathy.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <form id="uploadForm" enctype="multipart/form-data">
+          <div class="form-group text-center"> <!-- Center the label -->
+            
+            <input type="file" id="retinaImage" name="retinaImage" accept="image/*" class="form-control" required>
+          </div>
+          <div class="text-center" style="margin-top: 20px;">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+        <div id="result" class="mt-5 text-center">
+          <img id="uploadedImage" src="#" alt="Your Image" style="display: none; max-width: 300px; height: 300px; object-fit: cover; margin: 0 auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"
+          <div id="prediction" style="display: none;">
+            <h3>Prediction Result:</h3>
+            <p id="predictionText"></p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Upload Section -->
+<script>
+  document.getElementById('uploadForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const formData = new FormData();
+    const fileInput = document.getElementById('retinaImage');
+    const file = fileInput.files[0];
+    formData.append('file', file);
+
+    fetch('/upload', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        const resultDiv = document.getElementById('result');
+        // Parse the response to extract the prediction result and probability
+        const [prediction, probability] = data.split('<br>')[1].split(': ')[1].split(', ');
+        const anchorTagStart = data.indexOf('<a href=\'') + 9;
+        const anchorTagEnd = data.indexOf('\'>');
+        const imageURL = data.slice(anchorTagStart, anchorTagEnd); // Extract the URL from the anchor tag
+
+        // Update the HTML elements with the prediction result and probability
+        const predictionText = document.getElementById('predictionText');
+        predictionText.innerHTML = `<strong>Prediction Result:</strong> ${prediction}`;
+
+        // Display the uploaded image
+        const uploadedImage = document.getElementById('uploadedImage');
+        uploadedImage.src = imageURL;
+        uploadedImage.alt = 'Uploaded Image';
+        uploadedImage.style.display = 'block';
+
+        // Display the prediction result
+        const predictionDiv = document.getElementById('prediction');
+        predictionDiv.style.display = 'block';
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
+
+</script>
+
+
+
+<!-- ======= Frequently Asked Questions Section ======= -->
+<section id="faq" class="faq section-bg">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Frequently Asked Questions</h2>
+      <p>Learn more about our deep learning-based diabetic retinopathy detection tool and how it can help you manage your eye health effectively.</p>
+    </div>
+
+    <div class="faq-list">
+      <ul>
+        <li data-aos="fade-up">
+          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is diabetic retinopathy? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+          <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+            <p>
+              Diabetic retinopathy is a diabetes complication that affects the eyes. It is caused by damage to the blood vessels of the light-sensitive tissue at the back of the eye (retina). Early detection is crucial to prevent vision loss.
+            </p>
+          </div>
+        </li>
+
+        <li data-aos="fade-up" data-aos-delay="100">
+          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How does the deep learning model work? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+          <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Our deep learning model analyzes retinal images to detect signs of diabetic retinopathy. It has been trained on a large dataset of retinal images and can accurately identify the presence and severity of the disease.
+            </p>
+          </div>
+        </li>
+
+        <li data-aos="fade-up" data-aos-delay="200">
+          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">How accurate is the detection tool? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+          <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Our tool has been validated with high accuracy, ensuring reliable detection of diabetic retinopathy. However, it should be used as a supplementary tool and not replace professional medical advice.
+            </p>
+          </div>
+        </li>
+
+        <li data-aos="fade-up" data-aos-delay="300">
+          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">How can I use the detection tool? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+          <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Simply upload a clear image of your retina taken by a medical professional. Our tool will analyze the image and provide a prediction on the presence of diabetic retinopathy.
+            </p>
+          </div>
+        </li>
+
+        <li data-aos="fade-up" data-aos-delay="400">
+          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What should I do if the tool detects diabetic retinopathy? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+          <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              If our tool detects signs of diabetic retinopathy, we recommend consulting with an eye care professional for a comprehensive examination and appropriate treatment.
+            </p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</section><!-- End Frequently Asked Questions Section -->
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>RetinoPredict</h3>
+            <p>
+          
+              <strong>Phone:</strong> +212 65489326<br>
+              <strong>Email:</strong> retinopredict@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+             
+            </ul>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="{{ url_for('static', filename='assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/php-email-form/validate.js') }}"></script>
+
+<!-- Template Main JS File -->
+<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+</body>
+
+</html>
